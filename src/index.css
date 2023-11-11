@@ -12,7 +12,12 @@ body {
   --dark-bg: #171c28;
   --dark-text: #afafbf;
   --light-text:#444452;
+  --highlight:#007bff;
    font-family: 'Ubuntu', sans-serif;
+}
+html
+{
+  scroll-behavior: smooth;
 }
 code {
   font-family: 'Ubuntu', sans-serif;
@@ -53,6 +58,10 @@ body{
   padding:0px 50px;
 }
 
+.highlight
+{
+  font-weight: 700;
+}
 /* jumbotron styling */
 .jumbotron
 {
@@ -66,7 +75,9 @@ body{
 }
 .jumbotron_content
 {
-  font-size:1.5rem;
+  font-size:2rem;
+  width:80%;
+  font-weight: 350;
 }
 .jumbotron_heading
 {
@@ -76,15 +87,15 @@ body{
 
 /* email styling */
 .jumbotron_email {
-  box-shadow: inset 0 0 0 0 #54b3d6;
-  color: #54b3d6;
+  box-shadow: inset 0 0 0 0 var(--highlight);
+  color: var(--highlight);
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   font-size:1.5rem;
 }
 .jumbotron_email:hover {
-  box-shadow: inset 400px 0 0 0 #54b3d6;
+  box-shadow: inset 400px 0 0 0 var(--highlight);
   color: white;
 }
 .jumbotron_link
@@ -131,4 +142,26 @@ svg
   width: 25px;
   height: 25px;
   margin:0px 10px;
+}
+
+/* background container styling */
+.background
+{
+  display:flex;
+  flex-direction: row;
+  padding-left:10%
+}
+.background-heading
+{
+  color:var(--highlight);
+  font-weight: 400;
+  font-size:2rem;
+  padding:0px 40px;
+  display:flex;
+  
+}
+.background-content
+{
+  padding:20px;
+  width:60%;
 }
