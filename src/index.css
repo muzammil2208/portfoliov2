@@ -1,11 +1,4 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 :root
 {
   --light-bg:#fff;
@@ -18,6 +11,15 @@ body {
 html
 {
   scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-color: var(--light-bg);
+  color:var(--light-text);
+  font-family: -apple-system, BlinkMacSystemFont,'roboto',
+    'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 code {
   font-family: 'Ubuntu', sans-serif;
@@ -43,14 +45,7 @@ code {
 
 
 
-/* body styling */
-body{
-  background-color: var(--light-bg);
-  color:var(--light-text);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-}
+
 
 /* container styling */
 .container
