@@ -8,15 +8,16 @@ import Projects from './Components/Projects';
 import Footer from './Components/Footer';
 
 function App() {
+ 
   return (
     <div class="container">
       <ModeButton/>
-      <Jumbotron/>
-      <Background/>
-      <Skills/>
-      <Resume/>
-      <Projects/>
-      <Footer/>
+      <Jumbotron />
+      <Background />
+      <Skills />
+      <Resume />
+      <Projects />
+      <Footer />
     </div>
   );
 }

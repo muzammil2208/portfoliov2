@@ -8,6 +8,11 @@
   --highlight:#007bff;
    font-family: 'Ubuntu', sans-serif;
 }
+::selection{
+  background-color: yellow;
+  color:var(--light-text);
+
+}
 html
 {
   scroll-behavior: smooth;
@@ -15,11 +20,12 @@ html
 body {
   margin: 0;
   background-color: var(--light-bg);
-  color:var(--light-text);
+  ;
   font-family: -apple-system, BlinkMacSystemFont,'roboto',
     'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition:0.5s ease-in;
 }
 code {
   font-family: 'Ubuntu', sans-serif;
@@ -45,7 +51,15 @@ code {
 
 
 
-
+.dark
+{
+  background-color: var(--dark-bg);
+  color:var(--dark-text);
+}
+.light{
+  background-color: var(--light-bg);
+  
+}
 
 /* container styling */
 .container
@@ -56,6 +70,7 @@ code {
 .highlight
 {
   font-weight: 700;
+  color:inherit;
 }
 /* jumbotron styling */
 .jumbotron
@@ -113,7 +128,6 @@ code {
   display:flex;
   width:50px;
   height: 30px;
-  background-color: green;
   border-radius: 50px;
   align-items: center;
   padding:0;
@@ -144,7 +158,8 @@ svg
 {
   display:flex;
   flex-direction: row;
-  padding-left:10%
+  padding-left:10%;
+  background-color:inherit;
 }
 .background-heading
 {
@@ -213,7 +228,7 @@ svg
 .resume-link{
   text-decoration: none;
   font-size:2rem;
-  color:var(--light-text)
+  
 }
 
 
@@ -254,7 +269,7 @@ svg
   align-items: center;
   font-size:1.5rem;
   text-decoration: none;
-  color:var(--light-text);
+  ;
 }
 
 .project-skills
@@ -311,13 +326,21 @@ svg
 }
 
 
+/* mode button changing */
+.dark-btn
+{
+  background-color: green;
+  justify-content: flex-end;
+  transition: 2s;
+}
+
 /* mobile screen styling */
 
 @media only screen and (max-width:700px)
 {
       .container
     {
-      padding:0px 30px;
+      padding:0px 20px;
     }
 
     .highlight
@@ -381,7 +404,6 @@ svg
       display:flex;
       width:50px;
       height: 30px;
-      background-color: green;
       border-radius: 50px;
       align-items: center;
       padding:0;
@@ -481,7 +503,7 @@ svg
     .resume-link{
       text-decoration: none;
       font-size:2rem;
-      color:var(--light-text)
+      
     }
 
 
@@ -526,7 +548,7 @@ svg
       align-items: center;
       font-size:1.5rem;
       text-decoration: none;
-      color:var(--light-text);
+      ;
     }
 
     .project-skills
@@ -573,7 +595,7 @@ svg
       display:flex;
       width:90%;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: space-around;
       list-style-type: none;
       color:var(--highlight);
       font-size:18px;
@@ -581,6 +603,14 @@ svg
 
     .footer-links>li:hover{
     text-decoration: underline;
+    }
+
+    /* dark button styling */
+        .dark-btn
+    {
+      background-color: green;
+      justify-content: flex-end;
+      transition: 0.5s;
     }
 
   
