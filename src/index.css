@@ -316,12 +316,17 @@ svg
   gap:50px;
   align-items: center;
   justify-content: flex-end;
+  text-decoration: none;
   list-style-type: none;
   color:var(--highlight);
   font-size:24px;
 }
+.footer-links>a{
+  text-decoration: none;
+  color:#007bff
+}
 
-.footer-links>li:hover{
+.footer-links>a:hover{
  text-decoration: underline;
 }
 

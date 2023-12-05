@@ -7,10 +7,10 @@ function Footer() {
             Designed and Developed by Muzammil Khan 🤘 2023
         </p>
         <ul class='footer-links'>
-            <li>Linkedin</li>
-            <li>Github</li>
-            <li>email</li>
-            <li>Dribble</li>
+            <a href="https://www.linkedin.com/in/muzammil-khan-085543171/">Linkedin</a>
+            <a href='https://github.com/muzammil2208'>Github</a>
+            <a href="muzammilrk90@gmail.com">email</a>
+            <a href="https://dribbble.com/Muzz2208">Dribble</a>
         </ul>
     </div>
   )
