@@ -6,6 +6,7 @@ import ModeButton from './Components/ModeButton';
 import Resume from './Components/Resume';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
+import React from 'react';
 
 function App() {
  

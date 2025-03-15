@@ -25,6 +25,7 @@ function Skills() {
                 <li>Node</li>
                 <li>Cucmumber</li>
                 <li>Maven</li>
+                <li>Pytest</li>
             </ul>
         </div>
         <div class="skills-small-container">
