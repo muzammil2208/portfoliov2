@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div class='footer'>
         <p class="footer-heading">
-            Designed and Developed by Muzammil Khan 🤘 2023
+            Designed and Developed by Muzammil Khan <span role="img" aria-label="rocking sign"></span>🤘 2023
         </p>
         <ul class='footer-links'>
             <a href="https://www.linkedin.com/in/muzammil-khan-085543171/">Linkedin</a>

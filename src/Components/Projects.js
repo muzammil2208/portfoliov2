@@ -6,7 +6,13 @@ function Projects() {
     <div class="projects-main-container">
         <h1 class='projects-title'>Projects</h1>
         <div class='projects-container'>
-            
+            <div class='p-container'>
+                <a href="https://github.com/muzammil2208/Jexcel" class="project-title highlight">Jexcel<Arrow/></a>
+                <p class='project-description'> This library is to make setting up and using test data in format of excel easy. It is developed by using apache.poi library functions to make more high level functions</p>
+                <div class='project-skills-container'>
+                    <span class="project-skills">Java</span><span class="project-skills">Apace POI library</span><span class="project-skills">Maven</span>
+                </div>
+            </div>
             <div class='p-container'>
                 <a class="project-title highlight" href="https://weatherapp-lmmu.onrender.com">Weather app<Arrow/></a>
                 <p class='project-description'> A simple web app which uses open weather api to show current weather information in your current city as well as for cities you search for.</p>
@@ -28,6 +34,8 @@ function Projects() {
                     <span class="project-skills">TestNg</span><span class="project-skills">Java</span><span class="project-skills">Selenium</span><span class="project-skills">Maven</span>
                 </div>
             </div>
+            
+            
         </div>
     </div>
   )
