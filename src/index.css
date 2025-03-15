@@ -595,20 +595,19 @@ svg
       align-items: center;
       font-size:0.9rem;
       font-weight: 400;
-      width:100%;
-
+      width:auto;
       justify-content: center;
       
     }
     .footer-links
     {
       display:flex;
-      width:90%;
-      align-items: center;
-      justify-content: space-around;
+      flex-direction: row;
+      width:auto;
+      justify-content: space-between;
       list-style-type: none;
       color:var(--highlight);
-      font-size:18px;
+      font-size:0.9rem;
     }
 
     .footer-links>li:hover{
