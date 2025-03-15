@@ -344,7 +344,7 @@ svg
 
 /* mobile screen styling */
 
-@media only screen and (max-width:700px)
+@media only screen and (max-width:989px)
 {
       .container
     {
@@ -358,6 +358,7 @@ svg
     /* jumbotron styling */
     .jumbotron
     {
+
       display:flex;
       flex-direction:column;
       height: 100vh;
@@ -369,7 +370,7 @@ svg
     }
     .jumbotron_content
     {
-      font-size:1.5rem;
+      font-size:1.2rem;
       width:100%;
       font-weight: 350;
     }
@@ -592,9 +593,10 @@ svg
     {
       display:flex;
       align-items: center;
-      font-size:1rem;
+      font-size:0.9rem;
       font-weight: 400;
       width:100%;
+
       justify-content: center;
       
     }
